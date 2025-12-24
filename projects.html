@@ -44,7 +44,7 @@
         <section>
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <p class="fs-1 fw-bold">Projects</p>
-                <p class="mw-650">Here is a selection of some of my recent projects, built using HTML, CSS, JavaScript, and Python. Feel free to explore the URLs, view the demo videos, or check out the source code on GitHub</p>
+                <p class="mw-650">Here is a selection of some of my projects. Feel free to explore the URLs, view the demo videos, or the source code on GitHub</p>
             </div>
         </section>
 
@@ -108,10 +108,68 @@
             </div>
         </section> -->
 
-        <section class="project-2 my-5">
+
+        <!-- Data Engineering and Automation Section -->
+
+         <section class="project-2 my-5">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="mb-4"><span>Python</span></h2>
+                    <h2 class="mb-4"><span>Data Engineering & Automation</span></h2>
+                </div>
+                <div class="col-12">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">
+                            
+                          
+                            <div class="col-md-4 d-flex flex-column align-items-center text-center">
+                                <h4>Watch Deep Dive Tutorial (Part 1)</h4>
+                                <div class="ratio ratio-16x9 mb-2">
+                                    <iframe src="https://www.youtube.com/embed/OE8agc2haqQ?si=h0I4xSFscZDkwrjB" title="Part 1" frameborder="0" allowfullscreen></iframe>
+                                </div>
+
+                                <p class="mt-2">
+                                    <a href="YOUR_PART_2_URL_HERE" target="_blank" class="text-decoration-none fw-bold" style="color: #000;">
+                                        🎬 Watch Part 2: Implementation → <a href="https://youtu.be/m-RKkquA6WQ"  target="_blank">Click here</a> 
+                                    </a>
+                                </p>
+                            </div>
+                             
+                          
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Automated ETL Pipeline - Python, n8n & Google Sheets</h5>
+                                    <p class="card-text"> This project demonstrates an automated ETL (Extract, Transform, Load) pipeline
+                                        designed to streamline the processing of Google Trends search intent data for analysis and visualization.
+                                    </p>
+                                    <strong>My Role:</strong><br>
+                                    <p> I designed and implemented an event-driven workflow using n8n that continuously monitors a Google Sheets file for new search interest data. When new rows are added, 
+                                        the workflow triggers a custom Python API, which I built and deployed on Render.
+                                        <br><br>
+                                        The API performs data cleaning and standardization using Pandas, ensuring consistent formatting and analysis-ready fields. 
+                                        Once processed, the cleaned data is automatically written back to a separate Google Sheet via the Google Sheets API, creating a structured dataset ready for dashboards and reporting.
+                                        
+                                    </p>
+
+                                     <!-- <strong>My Role:</strong><br>
+                                    <p>  This pipeline removes the need for manual data cleaning and repeated spreadsheet edits, ensuring that search intelligence data is always up to date and ready for analysis. The workflow can be easily extended to support other data sources or automated reporting use cases in marketing and analytics teams. -->
+
+                                    </p>
+                                    <a href="https://www.linkedin.com/posts/barbara-mangiri-97480b14b_data-cleaning-automation-project-activity-7399689420423041024-TkoB?utm_source=share&utm_medium=member_desktop&rcm=ACoAACQ_36gBBwW3yE84GnHnTN6R9SLAhP3VJwU" target="_blank">
+                                        <button type="button" class="btn btn-dark">VIEW ON LINKEDIN</button>
+                                    </a>
+
+                                    <a href="https://github.com/barbzyqueen/googlesheet-python-cleaning" target="_blank">
+                                        <button type="button" class="btn btn-dark">VIEW ON GITHUB</button>
+                                    </a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!-- <section class="project-2 my-5">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="mb-4"><span>Data Engineering & Automation</span></h2>
                 </div>
                 <div class="col-12">
                     <div class="card mb-3" style="max-width: 100%;">
@@ -141,7 +199,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12">
+
+                 -->
+                <!-- <div class="col-12">
                     <div class="card mb-3" style="max-width: 100%;">
                         <div class="row g-0">
                             <div class="col-md-4 d-flex align-items-center">
@@ -155,7 +215,7 @@
                                         <a href="https://pdf-maker-app.streamlit.app/"  target="_blank">Click here</a> to check the Trivia Quiz App 
                                     </p> 
                                     
-                                    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, itaque!</p> -->
+                                    
                                     <a href="https://drive.google.com/file/d/1jYQFcFdFMouicyYdDWUVoDPSkzDGeiDk/view?usp=drive_link" target="_blank">
                                         <button type="button"
                                             class="btn btn-light border border-secondary border-2">LIVE
@@ -167,191 +227,118 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- <section class="project-3 my-5">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="mb-4"><span>React</span></h2>
-                </div>
-                <div class="col-12">
-                    <div class="card mb-3" style="max-width: 100%;">
-                        <div class="row g-0">
-                            <div class="col-md-4 d-flex align-items-center">
-                                <img src="./media/project-2.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Netflix Clone</h5>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Minima corporis fugiat provident cupiditate voluptate incidunt nisi ad
-                                        molestiae, soluta tenetur. Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Sed, obcaecati?</p>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, itaque!</p>
-                                    <a href="http://taskmatepro.herokuapp.com/" target="_blank">
-                                        <button type="button"
-                                            class="btn btn-light border border-secondary border-2">LIVE
-                                            DEMO</button></a>
-                                    <a href="https://github.com/ShubhamSarda/tmweb" target="_blank">
-                                        <button type="button" class="btn btn-dark">SOURCE CODE</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="card mb-3" style="max-width: 100%;">
-                        <div class="row g-0">
-                            <div class="col-md-4 d-flex align-items-center">
-                                <img src="./media/project-1.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Amazon Clone</h5>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Minima corporis fugiat provident cupiditate voluptate incidunt nisi ad
-                                        molestiae, soluta tenetur. Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Sed, obcaecati?</p>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, itaque!</p>
-                                    <a href="http://taskmatepro.herokuapp.com/" target="_blank">
-                                        <button type="button"
-                                            class="btn btn-light border border-secondary border-2">LIVE
-                                            DEMO</button></a>
-                                    <a href="https://github.com/ShubhamSarda/tmweb" target="_blank">
-                                        <button type="button" class="btn btn-dark">SOURCE CODE</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <section class="project-4 my-5">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="mb-4"><span>HTML/CSS/JavaScript</span></h2>
-                </div>
-                <div class="col-12">
-                    <div class="card mb-3" style="max-width: 100%;">
-                        <div class="row g-0">
-                            <div class="col-md-4 d-flex align-items-center">
-                                <img src="./media/weather_forecast_pic.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Weather Forecast App</h5>
-                                    <p class="card-text">The Weather Forecast App was built using HTML, CSS, JavaScript, and hosted on Netlify. This app allows users to search for weather conditions in various cities in the world. </p>
-                                    <p>
-                                        This project was completed as the final activity required for completing the SheCodes Plus traning.
-                                        <br>
-                                        <a href="https://barbzy-weather-forecast-app.netlify.app/"  target="_blank">Click here</a> to check the Weather Forecast App 
-                                    </p>
-                                    <a href="https://drive.google.com/file/d/1kLY7pkyu5BC8ahIzPZZhEZdBsmPpNMpa/view?usp=drive_link" target="_blank">
-                                        <button type="button"
-                                            class="btn btn-light border border-secondary border-2">LIVE
-                                            DEMO</button></a>
-                                    <a href="https://github.com/barbzyqueen/weather-forecast-app" target="_blank">
-                                        <button type="button" class="btn btn-dark">SOURCE CODE</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-12">
-                    <div class="card mb-3" style="max-width: 100%;">
-                        <div class="row g-0">
-                            <div class="col-md-4 d-flex align-items-center">
-                                <img src="./media/project-4.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Quiz Application</h5>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Minima corporis fugiat provident cupiditate voluptate incidunt nisi ad
-                                        molestiae, soluta tenetur. Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Sed, obcaecati?</p>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, itaque!</p>
-                                    <a href="http://taskmatepro.herokuapp.com/" target="_blank">
-                                        <button type="button"
-                                            class="btn btn-light border border-secondary border-2">LIVE
-                                            DEMO</button></a>
-                                    <a href="https://github.com/ShubhamSarda/tmweb" target="_blank">
-                                        <button type="button" class="btn btn-dark">SOURCE CODE</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div> -->
             </div>
         </section>
 
-        <!-- <section class="project-5 my-5">
+                            
+        <section class="project-2 my-5">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="mb-4"><span>HTML5 and CSS3</span></h2>
+                    <h2 class="mb-4"><span>Web Analytics & Intent</span></h2>
                 </div>
-                <div class="col-12">
-                    <div class="card mb-3" style="max-width: 100%;">
-                        <div class="row g-0">
-                            <div class="col-md-4 d-flex align-items-center">
-                                <img src="./media/project-1.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Portfolio</h5>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Minima corporis fugiat provident cupiditate voluptate incidunt nisi ad
-                                        molestiae, soluta tenetur. Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Sed, obcaecati?</p>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, itaque!</p>
-                                    <a href="http://taskmatepro.herokuapp.com/" target="_blank">
-                                        <button type="button"
-                                            class="btn btn-light border border-secondary border-2">LIVE
-                                            DEMO</button></a>
-                                    <a href="https://github.com/ShubhamSarda/tmweb" target="_blank">
-                                        <button type="button" class="btn btn-dark">SOURCE CODE</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="card mb-3" style="max-width: 100%;">
-                        <div class="row g-0">
-                            <div class="col-md-4 d-flex align-items-center">
-                                <img src="./media/project-2.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Travel Agency</h5>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Minima corporis fugiat provident cupiditate voluptate incidunt nisi ad
-                                        molestiae, soluta tenetur. Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Sed, obcaecati?</p>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, itaque!</p>
-                                    <a href="http://taskmatepro.herokuapp.com/" target="_blank">
-                                        <button type="button"
-                                            class="btn btn-light border border-secondary border-2">LIVE
-                                            DEMO</button></a>
-                                    <a href="https://github.com/ShubhamSarda/tmweb" target="_blank">
-                                        <button type="button" class="btn btn-dark">SOURCE CODE</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
 
+
+                 <!-- Nigeria's Interest In foreign Languages -->
+                
+                <div class="col-12">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">
+                            <div class="col-md-4 d-flex align-items-center">
+                                <img src="./media/LanguageProject-dashboard-image.png" class="img-fluid rounded-start" alt="Nigeria's Interest in Foreign Languages - Google Trends Analysis">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nigeria’s Interest in Foreign Languages – Google Trends & Power BI</h5>
+                                    <p class="card-text">
+                                        This interactive dashboard analyzes Google Trends data to reveal how interest in French, Spanish, German, and Mandarin varies across Nigeria’s 36 states.  
+                                        It highlights overall curiosity, regional differences, and top-performing languages by state.
+                                    </p>
+
+                                    <!-- <p>
+                                        <strong>My Role:</strong><br>
+                                        I collected Google Trends CSV data (“interest over time” and “interest by sub-region”) for each language, reshaped and cleaned it in Power Query, and created a region lookup table linking states to Nigeria’s geopolitical zones.  
+                
+                                    </p> -->
+
+                                    <p>
+                                        <strong>Real-World Use:</strong><br>
+                                        This project showcases how search analytics can guide language-learning initiatives, highlight regional trends, and inform educators or cultural organizations about areas with high interest in foreign languages.
+                                    </p>
+
+                                    <a href="https://youtu.be/phcqRCMsJMc" target="_blank">
+                                        <button type="button" class="btn btn-dark">VIEW DEMO</button>
+                                    </a>
+
+                                    <a href="https://github.com/barbzyqueen/Nigeria-Language-Interest-Project.git" target="_blank">
+                                        <button type="button" class="btn btn-dark">VIEW ON GITHUB</button>
+                                    </a> 
+
+                                   <a href="https://www.linkedin.com/posts/barbara-mangiri-97480b14b_powerbilearning-googletrends-dataprojects-activity-7374318160650354688-9DTx?utm_source=share&utm_medium=member_desktop&rcm=ACoAACQ_36gBBwW3yE84GnHnTN6R9SLAhP3VJwU" target="_blank">
+                                        <button type="button" class="btn btn-dark">VIEW ON LINKEDIN</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+             
+        </section>
+
+
+
+         <!-- Business Intelligence & E-commerce -->
+        <section class="project-2 my-5">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="mb-4"><span>Business Intelligence & E-commerce</span></h2>
+                </div>
+                   <!-- Customer Purchase Overview -->
+                <div class="col-12">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">
+                            <div class="col-md-4 d-flex align-items-center">
+                                <img src="./media/final_dashboard_pbi.png" class="img-fluid rounded-start" alt="Customer Purchase Overview">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Customer Purchase Overview - SQL & Power BI</h5>
+                                    <p class="card-text">
+                                        This e-commerce dashboard transforms raw sales data into actionable growth metrics. It tracks high-value customer segments, regional revenue distribution, and purchasing lifecycle trends, providing a clear window into business health and customer retention.
+                                    </p>
+
+                                    <p>
+                                        <strong>My Role:</strong><br>
+                                        I used SQL Server to extract and transform the data, writing queries to answer over 20 business questions. After creating SQL views, I connected the data to Power BI and built interactive visuals — including KPI cards, customer distribution charts, and a sortable table of top customers. I also troubleshot challenges around slicer functionality by consolidating multiple SQL outputs into a single view.
+                                    </p>
+
+                                    <p>
+                                        <strong>Real-World Use:</strong><br>
+                                          This tool helps marketing teams identify their most loyal customers, track revenue trends across different countries, and make quick decisions using dynamic filters for dates and locations.
+                                    </p>
+
+                                    <a href="https://www.linkedin.com/posts/barbara-mangiri-97480b14b_sales-customers-and-insights-sql-and-activity-7354198551561748484-fvOk?utm_source=share&utm_medium=member_desktop&rcm=ACoAACQ_36gBBwW3yE84GnHnTN6R9SLAhP3VJwU" target="_blank">
+                                        <button type="button" class="btn btn-dark">VIEW ON LINKEDIN</button>
+                                    </a>
+
+                                    <a href="https://github.com/barbzyqueen/sql-powerbi-capstone.git" target="_blank">
+                                        <button type="button" class="btn btn-dark">VIEW ON GITHUB</button>
+                                    </a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+
+
+
+      
     </main>
 
     <footer class="bg-light pt-4 pb-2">
